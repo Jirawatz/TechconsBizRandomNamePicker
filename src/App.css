@@ -1,26 +1,58 @@
-.App {
+
+/* CSS W3School*/
+.heroImage {
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255)), url("/src/logo.svg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.heroText {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  padding-top: 35%;
+  padding-left: 80px;
+  color: black;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 48px;
 }
 
-.App-link {
-  color: #61dafb;
+.heroButton {
+  display: inline-block;
+  padding-top: 20%;
+  padding-left: 80px;
+  cursor: pointer;
+}
+
+/* Typing Container*/
+.headerContainer {
+  height: 50vh;
+  display: flex;
+  color: #2D2D2D;
+}
+
+.typingHero {
+  width: 100%;
+  background-color: #FDFDFD;
+    
+}
+
+.nameRenderFields {
+  font-size: 48px;
+  margin-top: 50%;
+  margin-left: 150px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.nameRenderText {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 30px;
 }
 
 @keyframes App-logo-spin {
